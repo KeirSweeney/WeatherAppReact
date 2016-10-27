@@ -1,0 +1,40 @@
+{
+  "name": "weatherappreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "production": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KeirSweeney/ReactApp.git"
+  },
+  "author": "Keir Sweeney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KeirSweeney/ReactApp/issues"
+  },
+  "homepage": "https://github.com/KeirSweeney/ReactApp#readme",
+  "dependencies": {
+    "axios": "^0.15.2",
+    "raven-js": "^3.7.0",
+    "react": "^15.3.2",
+    "react-addons-css-transition-group": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "eslint": "^3.8.1",
+    "eslint-plugin-react": "^6.4.1",
+    "html-webpack-plugin": "^2.24.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
